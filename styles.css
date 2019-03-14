@@ -1,0 +1,107 @@
+
+body {
+    background-color: #003466;
+    background-image: url(images/dark-paths.png);
+    font: 87.5%/1.4 HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#main {
+    background-color: #E6E6E6;
+    width: 80%;
+    margin: 80px auto 20px auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+a {
+    color: #003466;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia","Times New Roman",serif;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 300%;
+    margin-bottom: 0.2em;
+}
+
+h4.description {
+    text-align: center;
+}
+
+#title {
+	text-align: center;
+}
+
+
+/* Image and Book Links */
+.wrapper {
+    margin: 0 auto 0 auto;
+
+    display: grid;
+    grid-template-rows: auto ;
+}
+
+#sidebar-left {
+    grid-area: sidebar-left;
+    padding: 10px;
+    margin-top: 20px;
+    height: auto;
+}
+
+#sidebar-right {
+    grid-area: sidebar-right;
+    padding: 20px;
+    margin-top: 20px;
+    height: auto;
+}
+
+.feature-image {
+    grid-area: feature;
+}
+
+#tribute-info {
+    grid-area: content;
+}
+
+#img-div {
+    /*width: 100%;*/
+    margin: 20px 0 20px 0;
+    padding: 0 0 10px 0; 
+}
+
+#image {
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+    border: 3px solid black;
+  }
+
+#img-caption {
+    text-align: center; 
+}
+
+
+/* Text Content */
+.wrapper2 {
+    margin: 0 auto 0 auto;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "content";
+}
+
+#tribute-info {
+    max-width: 100%;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    height: auto;
+}
+  
+
