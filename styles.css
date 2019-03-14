@@ -18,6 +18,18 @@ a {
     color: #003466;
 }
 
+hr {
+    width: 30%;
+    
+}
+
+blockquote {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #003466;
+    /*background-color: #DBDBDB;*/
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Georgia","Times New Roman",serif;
     font-weight: normal;
